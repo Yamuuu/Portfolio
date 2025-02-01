@@ -1,0 +1,221 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navRight{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper {
+    width: 100%; 
+    overflow: hidden; 
+    position: relative;
+}
+
+.marquee {
+    width: 100vw; 
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.marquee div {
+    display: inline-block;
+    padding-right: 75px; 
+    font-size: 60px;
+}
+
+#CButton{
+    padding: 0.5% 2%;
+    width: auto;
+
+    font-size: large;
+    color: #0D0D0D;
+    border:.25em solid #BCD0D7;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: #BCD0D7;
+
+    border: 0;
+    border-radius: 0px;
+
+    transition: all 250ms;
+    
+}
+
+#CButton:hover{
+    background-color: #0D0D0D;
+    color: #BCD0D7;
+    border:.25em solid #BCD0D7;
+}
+
+#landing{
+    height: 100vh;
+}
+
+#nopad{
+    padding-top: 0%;
+}
+
+#landing{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+div{
+    padding-top: 1em;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+}
+
+#Project{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#EHgif{
+    width: 50%;
+    max-width: 100%;
+    border: 5px solid #BCD0D7; 
+    border-radius: 15px;
+}
+
+#projectHighlightContent{
+    width: 50%;
+}
+
+.softwareLogo{
+    height: 5em;
+}
+
+#software{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#SCase{
+}
+
+.software p{
+    align-items: center;
+}
+
+#skills{
+    display: flex;
+}
+
+#skillsRow1,#skillsRow2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: x-large;
+
+}
+
+#SP{
+    color: #BCD0D7;
+    font-size: 37px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  .Left{
+    justify-content: flex-start;
+
+  }
+
+  .Right{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #YamuLogo{
+    width: 10%;
+  }
+
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color: white;
+  } 
+
+  a:hover{
+    color: #BCD0D7;
+  }
+
+@media only screen and (max-width: 600px) {
+    .mainnav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #Project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #EHgif{
+        width: 1000%;
+        max-width: 100%;
+        border: 5px solid #BCD0D7; 
+        border-radius: 15px;
+    }
+
+    #projectHighlightContent{
+        width: 100%;
+    }
+    
+    #skillsRow1,#skillsRow2{
+        display: block;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .softwareLogo{
+        height: 5em;
+    }
+
+    #YamuLogoGif{
+        width: 100%;
+    }
+
+    #CButton{
+        width: 25%;
+  }
+
+  #YamuLogo{
+    width: 25%;
+  }
+
+
+}
