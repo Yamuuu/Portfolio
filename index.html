@@ -28,7 +28,8 @@
     <main>
         <div id="landing">
             <h1>Hey I'm</h1>
-            <img src="./images/yamulogogifdark.gif" alt="yamuLogoAnimation" id="YamuLogoGif">
+            <img id="gif" src="forward.gif" alt="GIF" width="300" />
+            <img src="./images/logos/LogoMotion2.gif" alt="yamuLogoAnimation" id="YamuLogoGif">
             <p><div class="wrapper" id="nopad">
                     <div class="marquee" id="nopad">
                         <div id="nopad">User Experience</div>
@@ -165,6 +166,18 @@
     
             requestAnimationFrame(move);
         });
+
+        // GIF REVERSE
+        const gif = document.getElementById("YamuLogoGif");
+
+        gif.addEventListener("mouseenter", () => {
+            gif.src = "/workspaces/Portfolio/images/logos/LogoMotionReverse.gif"; 
+        });
+
+        gif.addEventListener("mouseleave", () => {
+            gif.src = "/workspaces/Portfolio/images/logos/LogoMotion.gif"; 
+        });
+        
 
     </script>
 </body>
