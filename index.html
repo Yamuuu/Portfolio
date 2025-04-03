@@ -166,19 +166,7 @@
             requestAnimationFrame(move);
         });
 
-        // GIF REVERSE
-        const gif = document.getElementById("YamuLogoGif");
-        const originalSrc = "./images/logos/LogoMotion2.gif";
-        const reversedSrc = "./images/logos/LogoMotionReverse.gif";
         
-        const gifDuration = 3600; 
-
-        gif.addEventListener("mouseenter", () => {
-            gif.src = reversedSrc;
-            setTimeout(() => {
-                gif.src = originalSrc; 
-            }, gifDuration);
-        });
 
     </script>
 </body>
