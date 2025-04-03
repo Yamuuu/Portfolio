@@ -166,6 +166,14 @@
             requestAnimationFrame(move);
         });
 
+        //gif replay?
+        const gif = document.getElementById("YamuLogoGif");
+
+        gif.addEventListener("mouseenter", () => {
+            const src = gif.src.split("?")[0]; // Remove any existing query params
+            gif.src = `${src}?t=${new Date().getTime()}`; // Append timestamp to force reload
+        });
+
         
 
     </script>
