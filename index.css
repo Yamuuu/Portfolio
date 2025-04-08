@@ -1,19 +1,4 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
 
-.navLeft{
-    display: flex;
-    justify-content: flex-start;
-}
-
-.navRight{
-    display: flex;
-    justify-content: flex-end;
-}
 
 .wrapper {
     width: 100%; 
