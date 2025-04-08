@@ -162,7 +162,11 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
-   #Project{
+    #landing{
+        height: auto;
+    }
+   
+    #Project{
         display: flex;
         flex-direction: column;
     }
