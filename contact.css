@@ -7,14 +7,3 @@
     align-items: center;
 }
 
-#LinkedIn{
-    height: 5em;
-    width: auto;
-}
-
-#linkedin{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-top: 2.5em;
-}
