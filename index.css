@@ -162,12 +162,7 @@ footer{
 
 
 @media only screen and (max-width: 600px) {
-    .mainnav{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    #Project{
+   #Project{
         display: flex;
         flex-direction: column;
     }
