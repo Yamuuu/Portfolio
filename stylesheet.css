@@ -65,7 +65,7 @@ nav{
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      gap: .5em;
+      gap: .05em;
     }
   
     .navRight ul {
