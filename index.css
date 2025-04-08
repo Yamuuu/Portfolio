@@ -1,5 +1,3 @@
-
-
 .wrapper {
     width: 100%; 
     overflow: hidden; 
@@ -25,7 +23,7 @@
     padding: 0.5% 2%;
     width: auto;
 
-    font-size: large;
+    font-size: 1em;
     color: #0D0D0D;
     border:.25em solid #BCD0D7;
     text-align: center;
@@ -60,9 +58,6 @@
     text-align: center;
 }
 
-div{
-    padding-top: 1em;
-}
 
 .projects{
     display: flex;
