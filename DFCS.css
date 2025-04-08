@@ -4,6 +4,7 @@
     justify-content: space-between;
     width: 100%;
     flex-wrap: nowrap;
+    gap: 20px;
 }
 
 #cell1, #cell2, #cell3 {
